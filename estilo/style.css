@@ -1,17 +1,6 @@
 @charset "UTF-8";
 
-/*
-:root tem o mesmo sentido de 'Var'  o sinbolo usado para ser usado e  --
-como no exemplo abaixo    Pseu-classe especial
-
-#c3ebd6
-#83e1ad
-#3ddc84
-#2fa866
-#1a5c37
-#063d1e
-*/
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @font-face {
     font-family: 'Android';
@@ -32,7 +21,6 @@ como no exemplo abaixo    Pseu-classe especial
         --fonte-destaque: 'Bebas Neue', cursive;
         --fonte-android:'Android',cursive;
     }
-    /* configuração global server para manter todas configurações já feitas e adicionar novas configurações gerais para todo o código.  representada pelo  * {   }      */
 
 *{ 
     margin: 0px;
